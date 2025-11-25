@@ -321,5 +321,158 @@
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-    
+    /* CONTAINER */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+/* LOGO */
+
+.logo{
+    margin-bottom: 30px;
+}
+
+/* WRITE UP */
+
+.Write-up{
+    margin-bottom: 40px;
+    font-family: "Libre Franklin", sans-serif;
+    text-align: center;
+
+}
+
+.write-up-h1{
+    margin-bottom: 20px;
+}
+
+.write-h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.highlight{
+    font-weight: 700;
+}
+
+.write-p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+/* FORM */
+
+.form{
+    display: flex;
+    gap: 25px;
+}
+
+.input{
+    padding: 15px;
+    width: 480px;
+    border: 1px solid grey;
+    border-radius: 40px;
+   font-family: "Libre Franklin", sans-serif;
+   outline: none;
+
+   transition: border-color 0.5s ease-in 0s;
+}
+
+.input:focus{
+    border-color:  hsl(223, 87%, 63%);
+}
+
+/* ERROR MESSAGE */
+.error{
+    display: flex;
+    /* align-self: center; */
+    font-family: "Libre Franklin", sans-serif;
+   margin-left: 30px;
+}
+
+.error-mess{
+    font-size: 14px;
+    color: hsl(354, 100%, 66%);
+    margin-top: 10px;
+    display: none;
+ 
+}
+
+.error-placeholder::placeholder{
+    color: hsl(354, 100%, 66%);
+    opacity: 1;
+}
+
+/* BUTTON */
+
+.btn{
+    padding: 15px;
+    width: 180px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    font-family: "Libre Franklin", sans-serif;
+    box-shadow: 0px 3px 10px hsl(223, 87%, 63%);
+
+    transition: all 0.5s ease 0s;
+}
+
+.btn:hover{
+    background-color:  hsl(223, 51%, 44%);
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* PICTURE */
+
+.stat{
+    width: 80vw;
+    margin-bottom: 150px;
+    margin-top: 60px;
+    height: 50vh;
+
+}
+
+/* SOCIALS */
+
+.social-btn{
+    display: flex;
+    gap: 45px;
+}
+
+.fa-brands{
+    color: hsl(223, 87%, 63%);
+    font-size: 19px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    padding: 13px;
+    border-radius: 60px;
+    text-align: center;
+
+    transition: all 0.5s ease-in 0s;
+}
+
+.fa-brands:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+/* RIGHTS */
+
+.rights{
+    margin-top: 30px;
+    font-family: "Libre Franklin", sans-serif;
+    color: grey;
+}
 }
